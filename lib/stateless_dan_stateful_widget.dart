@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class StatelessDanStatefulWidget extends StatefulWidget {
-  const StatelessDanStatefulWidget({Key? key}) : super(key: key);
+  const StatelessDanStatefulWidget({key}) : super(key: key);
 
   @override
   State<StatelessDanStatefulWidget> createState() => _StatelessDanStatefulWidgetState();

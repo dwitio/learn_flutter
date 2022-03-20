@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class RowDanColumn extends StatelessWidget {
-  const RowDanColumn({Key? key}) : super(key: key);
+  const RowDanColumn({key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

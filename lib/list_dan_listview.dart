@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ListDanListView extends StatefulWidget {
-  const ListDanListView({Key? key}) : super(key: key);
+  const ListDanListView({key}) : super(key: key);
 
   @override
   State<ListDanListView> createState() => _ListDanListViewState();

@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class AnimatedContainerDanGestureDetector extends StatefulWidget {
-  const AnimatedContainerDanGestureDetector({Key? key}) : super(key: key);
+  const AnimatedContainerDanGestureDetector({key}) : super(key: key);
 
   @override
   State<AnimatedContainerDanGestureDetector> createState() => _AnimatedContainerDanGestureDetectorState();

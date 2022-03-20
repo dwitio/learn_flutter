@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AnonymousMethod extends StatefulWidget {
-  const AnonymousMethod({Key? key}) : super(key: key);
+  const AnonymousMethod({key}) : super(key: key);
 
   @override
   State<AnonymousMethod> createState() => _AnonymousMethodState();

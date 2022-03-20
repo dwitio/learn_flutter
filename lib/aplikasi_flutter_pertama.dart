@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Aplikasi_Flutter_Pertama extends StatelessWidget {
-  const Aplikasi_Flutter_Pertama({Key? key}) : super(key: key);
+  const Aplikasi_Flutter_Pertama({key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
