@@ -6,9 +6,14 @@ import 'package:belajar_flutter/card_widget.dart';
 import 'package:belajar_flutter/container_widget.dart';
 import 'package:belajar_flutter/draggable_dragtarget_sizedbox_material.dart';
 import 'package:belajar_flutter/flexible_widget.dart';
+import 'package:belajar_flutter/hero_dan_clirreact.dart';
 import 'package:belajar_flutter/image_widget.dart';
+import 'package:belajar_flutter/inkwell.dart';
 import 'package:belajar_flutter/list_dan_listview.dart';
+import 'package:belajar_flutter/media_query.dart';
 import 'package:belajar_flutter/navigasi_multipage.dart';
+import 'package:belajar_flutter/opacity_custom_card.dart';
+import 'package:belajar_flutter/position_floatingactionbutton_loginpage.dart';
 import 'package:belajar_flutter/row_dan_column.dart';
 import 'package:belajar_flutter/spacer_widget.dart';
 import 'package:belajar_flutter/stack_dan_align_widget.dart';
@@ -17,6 +22,7 @@ import 'package:belajar_flutter/text_widget.dart';
 import 'package:belajar_flutter/textfield_widget.dart';
 import 'package:belajar_flutter/textstyle.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() => runApp(const MyApp());
 
@@ -26,7 +32,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: TextFieldWidget(),
+      debugShowCheckedModeBanner: false,
+      home: HeroDanClipRReact(),
     );
   }
 }
