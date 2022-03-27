@@ -5,19 +5,24 @@ import 'package:belajar_flutter/appbar_gradasi.dart';
 import 'package:belajar_flutter/appbar_with_custom_height.dart';
 import 'package:belajar_flutter/button_belah_ketupat_warna_warni.dart';
 import 'package:belajar_flutter/card_widget.dart';
+import 'package:belajar_flutter/clippath_widget.dart';
 import 'package:belajar_flutter/container_widget.dart';
 import 'package:belajar_flutter/draggable_dragtarget_sizedbox_material.dart';
 import 'package:belajar_flutter/flexible_widget.dart';
+import 'package:belajar_flutter/font_features.dart';
+import 'package:belajar_flutter/gradient_opacity.dart';
 import 'package:belajar_flutter/hero_dan_clirreact.dart';
 import 'package:belajar_flutter/image_widget.dart';
 import 'package:belajar_flutter/inkwell.dart';
 import 'package:belajar_flutter/list_dan_listview.dart';
 import 'package:belajar_flutter/media_query.dart';
+import 'package:belajar_flutter/memainkan_musik.dart';
 import 'package:belajar_flutter/navigasi_multipage.dart';
 import 'package:belajar_flutter/opacity_custom_card.dart';
 import 'package:belajar_flutter/position_floatingactionbutton_loginpage.dart';
 import 'package:belajar_flutter/qrcode_widget.dart';
 import 'package:belajar_flutter/row_dan_column.dart';
+import 'package:belajar_flutter/scan_qrcode.dart';
 import 'package:belajar_flutter/spacer_widget.dart';
 import 'package:belajar_flutter/stack_dan_align_widget.dart';
 import 'package:belajar_flutter/stateless_dan_stateful_widget.dart';
@@ -37,7 +42,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ButtonBelahKetupatWarnaWarni(),
+      home: Clippath_widget(),
     );
   }
 }

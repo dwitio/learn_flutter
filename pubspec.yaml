@@ -35,6 +35,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   qr_flutter: ^2.1.0+55
+  audioplayers: ^0.20.1
+  qrscan: ^0.3.2
 
 dev_dependencies:
   flutter_test:
@@ -78,6 +80,19 @@ flutter:
     - family: DancingScript
       fonts:
         - asset: fonts/dancing-script.ttf
+
+    - family: Cardo
+      fonts:
+        - asset: fonts/cardo.ttf
+
+    - family: Milonga
+      fonts:
+        - asset: fonts/milonga.ttf
+
+    - family: Gabriola
+      fonts:
+        - asset: fonts/gabriola.ttf
+
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
