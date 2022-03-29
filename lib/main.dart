@@ -1,3 +1,4 @@
+import 'package:belajar_flutter/animated_padding_widget.dart';
 import 'package:belajar_flutter/animatedcontainer_dan_gesturedetector.dart';
 import 'package:belajar_flutter/anonymous_method.dart';
 import 'package:belajar_flutter/aplikasi_flutter_pertama.dart';
@@ -12,6 +13,7 @@ import 'package:belajar_flutter/flexible_widget.dart';
 import 'package:belajar_flutter/font_features.dart';
 import 'package:belajar_flutter/gradient_opacity.dart';
 import 'package:belajar_flutter/hero_dan_clirreact.dart';
+import 'package:belajar_flutter/http_request_method.dart';
 import 'package:belajar_flutter/image_widget.dart';
 import 'package:belajar_flutter/inkwell.dart';
 import 'package:belajar_flutter/list_dan_listview.dart';
@@ -26,6 +28,7 @@ import 'package:belajar_flutter/scan_qrcode.dart';
 import 'package:belajar_flutter/spacer_widget.dart';
 import 'package:belajar_flutter/stack_dan_align_widget.dart';
 import 'package:belajar_flutter/stateless_dan_stateful_widget.dart';
+import 'package:belajar_flutter/switch_animatedswitcher.dart';
 import 'package:belajar_flutter/tabbar_widget.dart';
 import 'package:belajar_flutter/text_widget.dart';
 import 'package:belajar_flutter/textfield_widget.dart';
@@ -42,7 +45,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Clippath_widget(),
+      home: AnimatedPaddingWidget(),
     );
   }
 }
