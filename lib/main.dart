@@ -12,6 +12,7 @@ import 'package:belajar_flutter/clippath_widget.dart';
 import 'package:belajar_flutter/container_widget.dart';
 import 'package:belajar_flutter/counter_cubit.dart';
 import 'package:belajar_flutter/counter_page.dart';
+import 'package:belajar_flutter/doc_comment.dart';
 import 'package:belajar_flutter/draggable_dragtarget_sizedbox_material.dart';
 import 'package:belajar_flutter/flexible_widget.dart';
 import 'package:belajar_flutter/font_features.dart';
@@ -45,21 +46,26 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
 
-void main() => runApp(
-  const MyApp()
-);
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({key}) : super(key: key);
+  final DocComment docComment = DocComment(
+    name: "Yuda",
+    role: "Gatotkaca",
+    photoURL: "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/02/22/1296165885.jpg",
+  );
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: BlocProvider(
-          create: (_) => CounterCubit(),
-          child: const CounterPage()
-      ),
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+          appBar: AppBar(
+            backgroundColor: Colors.red[900],
+            title: Text("Doc Comment Example"),
+          ),
+          body: Center(child: docComment,),
+        )
     );
   }
 }
