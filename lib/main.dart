@@ -5,7 +5,7 @@ import 'package:belajar_flutter/aplikasi_flutter_pertama.dart';
 import 'package:belajar_flutter/appbar_gradasi.dart';
 import 'package:belajar_flutter/appbar_with_custom_height.dart';
 import 'package:belajar_flutter/application_color.dart';
-import 'package:belajar_flutter/bloc_state_management.dart';
+import 'package:belajar_flutter/bloc_state_management/bloc_state_management.dart';
 import 'package:belajar_flutter/button_belah_ketupat_warna_warni.dart';
 import 'package:belajar_flutter/card_widget.dart';
 import 'package:belajar_flutter/clippath_widget.dart';
